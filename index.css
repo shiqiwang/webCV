@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont/iconfont.eot'); /* IE9*/
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    
+}
+
+@font-face {
+    font-family: 'pageturningfont';
+    src: url('pageturningfont/iconfont.eot'); /* IE9*/
+    src: url('pageturningfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('pageturningfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('pageturningfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('pageturningfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    overflow-y: hidden;
+    margin: 0;
+    font-family: "microsoft yahei";
+    background: url("image/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#root {
+    min-width: 980px;
+    min-height: 500px;
+}
+
+#cover {
+    width: 980px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+
+#personInfo {
+    height: 600px;
+    width: 450px;
+    position: absolute;
+    left: 0; top: 50%; margin-top: -300px;
+    background-color: rgba(33, 62, 44, 0.8);
+    border-radius: 8px;
+    color: white;
+    display: none;
+}
+
+#myName {
+    font-size: 28px;
+    padding: 30px 0 10px 20px;
+}
+
+#education {
+    font-size: 14px;
+    padding: 0 0 30px 20px;
+}
+
+#personInfo p {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.info {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.info .linkIcon {
+    font-family: "iconfont";
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+}
+
+.info a:hover {
+    color: rgb(253, 223, 93);
+}
+
+.socialInfo {
+    position: absolute;
+    bottom: 30px; left: 20px;
+}
+
+.socialInfo a {
+    font-family: "iconfont";
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.socialInfo a.smaller {
+    font-family: "iconfont";
+    font-size: 35px;
+}
+
+.socialInfo a:hover {
+    color: rgb(253, 223, 93);
+}
+
+#rightBox {
+    height: 600px;
+    width: 450px;
+    position: absolute;
+    border-radius: 8px;
+    right: 0; top: 50%; margin-top: -300px;
+}
+
+#rightBox #emiwang {
+    position: absolute;
+    top: 50%; margin-top: -100px;
+    right: 0;
+}
+
+ #inventory {
+    position: absolute;
+    bottom: 70px;
+
+}
+
+#inventory div {
+    display: inline-block;
+    width: 222px;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(253, 223, 93);
+    text-decoration: none;
+    text-align: center;
+}
+
+#inventory div span {
+    font-family: "iconfont";
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+#inventory div:hover {
+    color: rgb(115, 185, 255);
+    cursor: pointer;
+}
+
+#pageDown,
+#pageUp {
+    font-family: 'pageturningfont';
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 70px;
+    background-color: rgba(33, 62, 44, 0.8);
+    color: #fff;
+}
+
+#pageDown:hover,
+#pageUp:hover {
+    cursor: pointer;
+    color: rgb(253, 223, 93);
+}
+
+#pageDown {
+    position: fixed;
+    bottom: 50px; right: 100px;
+}
+
+#pageUp {
+    position: fixed;
+    bottom: 100px; right: 100px;
+}
