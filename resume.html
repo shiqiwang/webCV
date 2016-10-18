@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <title>resume</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="Page.css">
 </head>
 <body>
     <div id="root">
-        <div id="cover" class="page1">
-            <div id="personInfo">
+        <div id="page0" class="page">
+            <div class="pageBox">
+                <div id="personInfo">
                 <div id="myName">王诗琪&nbsp;&nbsp;EmiWang</div>
                 <div id="education">重庆大学 物联网工程 本科</div>
                 <div id="container">
@@ -31,14 +31,15 @@
                     <a class="smaller" href="https://www.douban.com/people/144504340/" target="_blank">&#xe607</a>
                     <a class="smaller" href="https://www.quora.com/profile/Emiwang" target="_blank">&#xe6fe</a>
                 </div>
-            </div>
+                </div>
 
-            <div id="rightBox">
-                <img id="emiwang" src="image/emiwang.png" height="0" width="0" data-visible="true" />
-            </div>
+                <div id="rightBox">
+                    <img id="emiwang" src="image/emiwang.png" height="200px" width="200px" data-visible="true" />
+                </div>
+            </div>     
         </div>
-        <div id="skillPage" class="page2">
-            <div id="skillPageBox">
+        <div id="page1" class="page">
+            <div class="pageBox">
                 <h1>技能清单</h1>
                 <ul>
                     <li>JavaScript-熟悉基本JS语法、闭包、原型链等。
@@ -53,8 +54,8 @@
                 </ul>
             </div>
         </div>
-        <div id="experiencePage" class="page3">
-            <div id="experiencePageBox">
+        <div id="page2" class="page">
+            <div class="pageBox">
                 <h1>活动经历</h1>
                 <dl>
                     <dt>Dare to Dream - AIESEC</dt>
@@ -64,8 +65,8 @@
                 </dl>
             </div>
         </div>
-        <div id="projectPage" class="page4">
-            <div id="projectPageBox">
+        <div id="page3" class="page">
+            <div class="pageBox">
                 <h1>迷你项目</h1>
                 <dl>
                     <dt>任务夹子</dt>
@@ -79,8 +80,8 @@
                 </dl>
             </div>
         </div>
-        <div id="assessmentPage" class="page5">
-            <div id="assessmentPageBox">
+        <div id="page4" class="page">
+            <div class="pageBox">
                 <h1>自我评价</h1>
                 <dl>
                     <dt>技术</dt>
@@ -93,9 +94,9 @@
             </div>
         </div>
     </div>
-    <div id="pageUp">&#xe610</div>
     <div id="pageDown">&#xe604</div>
     <script src="jquery-3.1.0.js"></script>
-    <script src="index.js"></script>
+    <!--<script src="index.js"></script>-->
+    <script src="anotherIndex.js"></script>
 </body>
 </html>

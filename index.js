@@ -1,4 +1,4 @@
-let pageIndex = 1;
+/*let pageIndex = 1;
 
 $(document).ready( function() {
     pageInit();
@@ -49,7 +49,7 @@ function showPageUp(pageUpClass, pageDownClass) {
 }
 
 function showPageDown() {
-    
+
 } 
 
 function pageDown() {
@@ -65,10 +65,12 @@ function pageUp() {
     if(pageIndex == 1) {
         return;
     } else {
-        showPage(".page" + pageIndex, ".page" + (pageIndex - 1));
+        showPageUp(".page" + pageIndex, ".page" + (pageIndex - 1));
         pageIndex -= 1;
     }
-}
+}*/
+
+
 
 
 
