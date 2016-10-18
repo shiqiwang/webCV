@@ -15,6 +15,9 @@ $("#pageDown").click(
             $("#page4").removeClass("visible");
             pageIndex = 0;
             $("#page0").addClass("visible");
+            setTimeout(function() {
+                ableClick = true;
+            }, 1000);
             return;
         }
         $("#page" + pageIndex).removeClass("visible");
